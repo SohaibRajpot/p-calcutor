@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Profit Calculator</h1>
+        <label for="buyingPrice">Enter the buying price(pkr)</label>
+        <input type="text" id="buyingPrice">
+        <label for="sellingPrice">Enter the selling price(pkr)</label>
+        <input type="text" id="sellingPrice">
+        <label for="amount">Enter the amount</label>
+        <input type="text" id="amount">
+        <button id="calculateButton">Calculate</button>
+        <div id="result">
+            <p>Quantity in dollar is: <span id="quantityInDollar"></span></p>
+            <p>Profit in pkr: <span id="profitInPkr"></span></p>
+            <p>Percentage: <span id="percentage"></span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
